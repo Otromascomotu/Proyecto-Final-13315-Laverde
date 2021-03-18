@@ -1,0 +1,3 @@
+# Listado de archivos y carpeteas ignoradas y no incluidas en ningún commit
+
+node_modules/

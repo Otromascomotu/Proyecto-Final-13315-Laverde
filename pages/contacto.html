@@ -23,7 +23,7 @@
         <div class="d-flex justify-content-between text-center flex-row-reverse align-items-center flex-wrap" style="width: 100%">
           <a class="header_navbar--brand">
             <!-- Logo de la empresa-->
-            <img src="../img/LogoEmpresa.jpg" width="130" height="80" alt="" />
+            <img src="../img/LogoLaverdeH.jpg" width="200" height="100" alt="logo empresa grillo"/>
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -55,70 +55,63 @@
     </div>
 
     <!-- Inicio de sección Contacto-->
-    <div class="productos  mt-4">
-        <h1 class="text-center">Contacto</h1>
-        <div class="row mt-4">
-          <div class="container-fluid nosotros bg-primary ">
-            <div class="row align-items-center">
-              <div class="col-md-6 img-nosotros imagen-bg">
-              </div>
-            <div class="col-md-6 text-nosotros text-light">
-                <div class="contenido">
-                  <h3 class="miUbicacion">Mi Ubicacion</h3>
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.9268045908448!2d-64.19052548589883!3d-31.416142681404118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a283cd3804b1%3A0xf74e6d999d13aab3!2s27%20de%20Abril%20285%2C%20X5000AEE%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1609476698666!5m2!1ses!2sar" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                  <br>
-                  <br>
-                  <form action="#" method="GET" class="form">
-                    <label for="nombre">Nombre(s):<br>
-                      <input type="text" name="nombre">
-                    </label><br><br>
-                    <label for="apellido">Apellido(s):<br>
-                      <input type="text" name="apellido">
-                    </label><br><br>
-                    <label for="email">E-mail:<br>
-                      <input type="text" name="email">
-                    </label><br><br>
-                    <div>Cliente:
-                      <select name="Cliente" id="Cliente">
-                        <option value="P">Personal</option>
-                        <option value="C">Comercial</option>
-                        <option value="I">Institucional</option>
-                        <option value="E">Empresarial</option>
-                        <option value="S">Startup</option>
-                      </select>
-                    </div><br>
-                    <div>¿Desea recibir mi Newsletter?
-                      <input type="checkbox" name="aceptar" value="1"></div><br>
-                        <label for="comentarios">Comentarios:<br>
-                          <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
-                        </label><br>
-                      <input type="submit" value="LIMPIAR"><input type="reset" value="ENVIAR"><br><br>
-                    </div>
-                    </form>
-                  </div>
-                </div>
-            </div>
-        </div>
+    <div class=container_contacto>
+      <div class="contenido">
+        <h3 class="miUbicacion">Mi Ubicacion</h3>
+        <br>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.9268045908448!2d-64.19052548589883!3d-31.416142681404118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a283cd3804b1%3A0xf74e6d999d13aab3!2s27%20de%20Abril%20285%2C%20X5000AEE%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1609476698666!5m2!1ses!2sar" width="800" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div>
+
+      <div class=form>
+        <form action="#" method="GET" class="form">
+          <label for="nombre">Nombre(s):<br>
+            <input type="text" name="nombre">
+          </label><br><br>
+          <label for="apellido">Apellido(s):<br>
+            <input type="text" name="apellido">
+          </label><br><br>
+          <label for="email">E-mail:<br>
+            <input type="text" name="email">
+          </label><br><br>
+          <div>Cliente:
+            <select name="Cliente" id="Cliente">
+              <option value="P">Personal</option>
+              <option value="C">Comercial</option>
+              <option value="I">Institucional</option>
+              <option value="E">Empresarial</option>
+              <option value="S">Startup</option>
+            </select>
+          </div><br>
+          <div>¿Desea recibir mi Newsletter?
+            <input type="checkbox" name="aceptar" value="1"></div><br>
+              <label for="comentarios">Comentarios:<br>
+                <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
+              </label><br>
+            <input type="submit" value="LIMPIAR"><input type="reset" value="ENVIAR"><br><br>
+          </div>
+        </form>
       </div>
     <!-- Finaliza de sección Contacto-->
 
    <!-- Inicia Pie de Página -->
-<footer class="container-fluid footer text-center pt-4 pb-4">
-  <div class="row">
-    <div class="col-md-12 pb-2 redeSociales" >
-      <div class="col-md-12">
-        <a href="">Facebook</a>
-        <a href="">Instagram</a>
-        <a href="">Twitter</a>
-        <a href="">Github</a>
-        <a href="">Medium</a>
-        <a href="">Reddit</a>
-      </div>
-      <div class="container d-flex justify-content-center ">
-          <h5 class="text-footer"> LAVERDE <a href="">Software Consulting & Devs - Copyright &#169 2021</a> </h5>
-      </div>
+   <footer>
+    <div class="footer-content">
+        <h3>LAVERDE Devs & Consulting SRL</h3>
+        <p>¡Seguinos en nuestras redes sociales!</p>
+        <ul class="redes_sociales">
+          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+          <li><a href="#"><i class="fa fa-github"></i></a></li>
+          <li><a href="#"><i class="fa fa-medium"></i></a></li>
+          <li><a href="#"><i class="fa fa-reddit"></i></a></li>
+          <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+        </ul>
     </div>
-  </div>
+    <div class="footer-bottom">
+        <p>LAVERDE Devs & Consulting SRL - Designed by Luis Laverde - Copyright &#169 2021 <span>Derechos Reservados</span>
+    </div>
 </footer>
 <!-- Finaliza Pie de Página -->
 
