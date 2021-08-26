@@ -1,0 +1,44 @@
+Array = arreglo
+
+Un array es un objeto que almacena una lista de elementos.
+
+Estos elementos pueden ser:
+- Números.
+- Strings. 
+- Booleanos. (elementos o datos primitivos)
+- Objetos.
+- Lista de listas.
+
+- Los elementos dentro del array pueden ser añadidos, manipulados o eliminados.
+
+- Dichos elementos dentro del array tienen un orden lógico que siempre comienza desde la posición cero = 0 
+
+- Su declaración se realiza con el signo de corchetes [ ]
+
+- Se recomienda por convención y buenas prácticas declararlo con const
+
+- Podemos accesar al array de manera simple, indicando la posición del elemento que queremos buscar y encontrar [0] [1] [2] [3]
+
+- Posee varios métodos, entre los más comunes están:
+
+.length = nos sirve para obtener el largo de un Array, es decir, cuántos elementos tiene.
+
+.toString = convierte un Array a un String, compuesto por cada uno de los elementos del Array separados por comas.
+
+.push = suma un elemento a un Array ya existente, pasando como parámetro el valor (o variable) a agregar.
+
+.join = une o junta todos los elementos de un Array en una cadena String, indicando como parámetro el separador para esos elementos.
+
+.concat = combina dos Arrays en un único Array resultante.
+
+.slice = devuelve una copia de una parte del Array dentro de un nuevo Array, empezando desde el inicio y hasta el fin que le asignemos (fin no incluído). 
+              El Array original no se modificará.
+
+.find = devuelve el valor del primer elemento del Array que satisface la función de comprobación enviada por parámetro. 
+            Si ningún valor satisface la función de comprobación, se devuelve undefined.
+
+.filter = crea un nuevo Array con todos los elementos que cumplan la función de comprobación enviada por parámetro. Generalmente, se obtiene un Array con menos elementos que la lista a filtrar. Si no encuentra los elementos se devuelve un array vacio.
+
+.map = se utiliza para crear un nuevo Array con todos los elementos del Array original transformados según las operaciones de la función enviada por parámetro. El nuevo Array obtenido tiene la misma cantidad de elementos que el array original pero con los valores modificados.
+
+type of = conocer el tipo de dato primitivo o de una función o cualquier otro
